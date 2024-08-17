@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0f0d13;
+}
+#container *{
+border: solid 1px red;
+}
+#container {
+  display: grid;
+  border: solid 1px red;
+  grid-template-areas:
+    "A B"
+    "A C";
+    gap: 32px;
+}
+
+#container1 {
+  grid-area: A;
+  padding: 50px 38px;
+}
+#container2{
+  grid-area: B;
+}
+#container3{
+  grid-area: C;
+}
+.Player{
+  background-color: #2a2141;
+  padding: 28px;
+}
