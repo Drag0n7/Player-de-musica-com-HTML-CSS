@@ -38,8 +38,15 @@ body * {
   height: 190px;
   object-fit: cover;
 }
-#container1 .info{
+#container1 .info {
   margin-top: 28px;
+}
+/* Separar itens na mesma caixa*/
+#container1 .controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  
 }
 #container2 {
   grid-area: B;
