@@ -42,8 +42,8 @@ body * {
 
 #container2 {
   grid-area: B;
+  height: fit-content;
 }
-
 
 #container3 {
   grid-area: C;
@@ -83,7 +83,9 @@ body * {
   justify-content: space-between;
   margin-top: 29px;
 }
-
+.horizontal .controls{
+  padding-inline: 58px;
+}
 .track {
   position: relative;
   margin-top: 28px;
