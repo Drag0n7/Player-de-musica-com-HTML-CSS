@@ -83,7 +83,7 @@ body * {
   justify-content: space-between;
   margin-top: 29px;
 }
-.horizontal .controls{
+.horizontal .controls {
   padding-inline: 58px;
 }
 .track {
@@ -118,4 +118,17 @@ body * {
   font-size: 14px;
   justify-content: space-between;
   margin-top: 10px;
+}
+@media (max-width: 643px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    margin: auto;
+    height: auto;
+    padding-block: 60px;
+  }
+  .horizontal .controls {
+    padding-inline: 30px;
+  }
 }
